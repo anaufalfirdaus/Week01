@@ -1,0 +1,9 @@
+{
+  "name": "Week-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/anaufalfirdaus/Week01.git",
+  "author": "naufalfirdaus <naufalfirdausa@gmail.com>",
+  "license": "MIT"
+}
