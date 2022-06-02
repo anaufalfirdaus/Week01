@@ -3,9 +3,6 @@
 const dates = [new Date(2021, 10, 20), new Date(2020, 3, 12),
 new Date(2020, 5, 23), new Date(2022, 3, 18)];
 // Find the first date in 2020
-/* const matchingDate = dates.find(date => date.getFullYear() === 2020);
-console.log(matchingDate); */
-
 function matchingDate (dates, year){
 
 }
