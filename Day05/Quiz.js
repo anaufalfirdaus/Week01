@@ -116,3 +116,73 @@ const  findSum =(arr, weight) =>{
 }
 
 console.log(findSum([1,2,3,4,5],9)); // 4 & 5
+
+//soal 14
+/**
+ *  Peminjaman komik di taman bacaan 
+ *  hanya dibolehkan 3hari dihitung saat peminjaman,
+ *  lebih dari 6 hari akan dikenakan denda sebesar
+ *  Rp.500 tiap komik. biaya komik peminjaman Rp.2000/tiap komik.
+ *  buat function dengan :
+ *  totalKomikPinjam(starDate,endDate, totalkomik)
+ *  startDate : tgl pinjam komik
+ *  endDate : tgl kembalikan komik
+ *  totalKomik : jumlah komik, maksimal 10 komik
+ */
+
+ function tagihanKomik(tglPinjam, tglKembali, totalkomik) {
+
+}
+
+
+console.log(tagihanKomik("09-03-20xx", "09-06-2021",4)); //Tgl.Pinjam 09-03-20xx not valid formated date
+console.log(tagihanKomik("09-03-2021", "09-mm-2021",4));//Tgl.Kembali 09-mm-2021 not valid formated date
+console.log(tagihanKomik("09-03-20xx", "09-mm-2021",4));//Tgl.Pinjam 09-03-20xx & Tgl.Kembali 09-mm-2021 not valid formated date
+console.log(tagihanKomik("09-03-2021", "09-06-2021",4));
+/**
+ Total Hari = 3 
+ Total Komik = 4 x 2500 
+ ------------------------
+ Total Tagihan =Rp.30000
+ */
+
+
+//soal 15
+/**
+    Buat function untuk membayar cicilan angsuran rumah,
+    diketahui angsuran rumah per bulan Rp.3.500.000,
+    
+    function payment(tglBayar,tglJatuhTempo,cicilan);
+
+    jika penghuni telat membayar dari tgl jatuh tempo 
+    akan dikenakan denda sebesar 2 mile/hari atau 2/1000 dari total angsuran.
+    Pembayaran dapat dilakukan paling cepat 5 hari sebelum jatuh tempo.
+ */
+
+function payment(tglBayar,tglJatuhTempo,cicilan){
+    
+} 
+
+function showTagihan(payDate,dueDate,angsuran,cicilan,terlambat,denda){
+
+    
+}
+
+function differenceInDays(startDate,endDate){
+
+}
+
+console.log(payment("09/30/2021","09/27/2021",50000));//Angsuran anda kurang dari Rp 3.500.000,00. Silahkan isi sesuai angsuran
+console.log(payment("09/21/2021","09/27/2021",3500000));//Tagihan bulan 8 belum tersedia
+console.log(payment("09/27/2021","09/27/2021",3500000));
+/**
+ --------------------------
+    	Tanggal Bayar : 27/9/2021
+    	Jatuh Tempo :  27/9/2021
+    	--------------------------
+    	Tagihan bulan 9,2021 = Rp.3500000 
+    	Denda = Rp.0 (terlambat 0 hari)
+    	Total = Rp.3500000 (lunas)
+    	--------------------------
+    	Kwitansi ini sebagai alat bukti pembayaran
+ */
