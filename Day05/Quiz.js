@@ -79,3 +79,40 @@ function maxWordLength(params) {
 }
 
 console.log(maxWordLength("aku suka bootcamp sentul city"));//bootcamp
+
+//soal 10
+const animal = ['dog', 'cat', 'seal', 'walrus', 'lion', 'cat'];
+// Find where the 'walrus' item is
+
+// Join the portion before 'walrus' to the portion after 'walrus'
+
+// now animalsSliced has ['dog', 'cat', 'seal', 'lion', 'cat']
+
+//soal 11
+function startsWithE(animal) {
+
+}
+const animals = ['elephant', 'tiger', 'emu', 'zebra', 'cat', 'dog',
+    'eel', 'rabbit', 'goose', 'earwig'];
+
+console.log(animalsE); // ["elephant", "emu", "eel", "earwig"]
+
+//soal 12
+function range(startOrEnd, end, step) {
+
+}
+
+function rangeFromStartToEnd(start, end, step = 1){
+
+};
+
+console.log(range(9));//(9) [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+console.log(range(5,9));//(4) [5, 6, 7, 8]
+
+//soal 13
+const  findSum =(arr, weight) =>{
+
+}
+
+console.log(findSum([1,2,3,4,5],9)); // 4 & 5
